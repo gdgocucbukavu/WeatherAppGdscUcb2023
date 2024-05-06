@@ -16,3 +16,5 @@ def previsions(city_name,api_key):
     response = requests.get(complete_url)
     data = response.json()
     return data
+
+print(previsions("Paris",api_key))
